@@ -1,4 +1,5 @@
-This is a printf team project between;
+This is a printf team project between:
+
 Umunnakwe Emmanuel.A(princenayo)
 
 
