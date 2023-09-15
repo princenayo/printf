@@ -48,13 +48,13 @@ int _printf(const char *format, ...)
 
 	print_buffer(buffer, &buff_ind);
 
-	va_end(list);
+	va_end(args);
 
 	return (printed_chars);
 }
 
 /**
- * print_buffer - Prints the contents of the buffer if it exist
+ * print_buffer - it Prints the contents of the buffer if it exist
  * @buffer: Array of chars
  * @buff_ind: Index at which to add next char, represents the length.
  */
