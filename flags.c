@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * get_flags - 
- * by Emmanuel and 
- * @format: 
+ * get_flags -fuctions that calculate active flags
+ * by Emmanuel and  Kelly
+ * @format: formated strings of argument
  * @i: take a parameter.
  * Return: Flags:
  */
