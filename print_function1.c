@@ -122,10 +122,10 @@ int print_hexa_upper(va_list types, char buffer[],
  * @buffer: Buffer array to handle print
  * @flags: Function that calculates active flags
  * @flag_ch: it calculates active flags
- * @width: get width
- * @precision: Function of Precision specification
+ * @width: A function to get width
+ * @precision: A Function of Precision specification
  * @size: Size specifier
- * @size: Size specification
+ * @size: Function of Size specification
  * Return: Number of chars printed
  */
 int print_hexa(va_list types, char map_to[], char buffer[],
