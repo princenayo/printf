@@ -2,15 +2,15 @@
 
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
- * print_unsigned - Prints an unsigned number
- * by Emmanuel and Kelly
- * @types: Lists a of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width
- * @precision: Precision specification
+ * print_unsigned -A function that Prints unsigned numbers
+ * by Emmanuel and Kelly NAMANO
+ * @types: Highlights Lists a of arguments
+ * @buffer: Buffer array that handles print
+ * @flags:  Calculates flags that are active
+ * @width: fuction that gets widths
+ * @precision: Precision of  specification
  * @size: Size specifier
- * Return: Number of chars printed.
+ * Return: Highlights Number of chars to be printed.
  */
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -38,14 +38,14 @@ int print_unsigned(va_list types, char buffer[],
 
 /************* PRINT UNSIGNED NUMBER IN OCTAL  ****************/
 /**
- * print_octal -it Prints an unsigned number in octal notation
- * @types: Lists of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * print_octal -function that Prints the unsigned number in octal notation
+ * @types: Function that highlights the Lists of arguments
+ * @buffer: Buffer array that handles print
+ * @flags:  Calculates the flags that are active
  * @width: get width
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed
+ * @precision: function of Precision specification
+ * @size: Function of Size specifier
+ * Return: Number of that are printed printed
  */
 int print_octal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -80,14 +80,14 @@ int print_octal(va_list types, char buffer[],
 
 /************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
 /**
- * print_hexadecimal - Prints an unsigned number in hexadecimal notation
+ * print_hexadecimal - Function that Prints an unsigned number in hexadecimal notation
  * @types: Lists of arguments
  * @buffer: Buffer array to handle print
- * @flags: it calculates active flags
+ * @flags: Functions that calculates active flags
  * @width: get width
- * @precision: Precision specification
+ * @precision: Function of Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Funtion of  Number of chars printed
  */
 int print_hexadecimal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -98,10 +98,10 @@ int print_hexadecimal(va_list types, char buffer[],
 
 /************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
 /**
- * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
- * @types: Lists of arguments to print
- * @buffer: Buffer array to handle print
- * @flags:  it calculates active flags
+ * print_hexa_upper - Function that Prints the unsigned numbers in upper hexadecimal notation
+ * @types: Lists of arguments to be print
+ * @buffer: Buffer array that handles print
+ * @flags: Function that calculates active flags
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
@@ -116,14 +116,14 @@ int print_hexa_upper(va_list types, char buffer[],
 
 /************** PRINT HEXX NUM IN LOWER OR UPPER **************/
 /**
- * print_hexa - Prints a hexadecimal number in lower or upper
- * @types: Lists of arguments
- * @map_to: Array of values to map the number to
+ * print_hexa - Function That Prints a hexadecimal number in both lower and upper
+ * @types: Function that List arguments
+ * @map_to: Function of Array of values to map the number to
  * @buffer: Buffer array to handle print
- * @flags: it calculates active flags
+ * @flags: Function that calculates active flags
  * @flag_ch: it calculates active flags
  * @width: get width
- * @precision: Precision specification
+ * @precision: Function of Precision specification
  * @size: Size specifier
  * @size: Size specification
  * Return: Number of chars printed

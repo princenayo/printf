@@ -3,13 +3,13 @@
 /****************** PRINT POINTER ******************/
 /**
  * print_pointer - Prints the value of a pointer variable
- * by Emmanuel and Kelly
- * @types: List a of arguments
+ * by Emmanuel and Kelly NAMANO
+ * @types:Function that List a of arguments
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @flags: Function that Calculates active flags
  * @width: get width
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Function pf Size specifier
  * Return: Number of chars printed.
  */
 int print_pointer(va_list types, char buffer[],
@@ -55,13 +55,13 @@ int print_pointer(va_list types, char buffer[],
 
 /************************* PRINT NON PRINTABLE *************************/
 /**
- * print_non_printable - Prints ascii codes in hexa of non printable chars
- * @types: List of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * print_non_printable - Function that Prints the ascii codes in hexa of non printable chars
+ * @types: Highlights List of arguments
+ * @buffer: Funtion of Buffer array to handle print
+ * @flags:  Calculates flags that are active
  * @width: get width
- * @precision: Precision specification
- * @size: Size specifier
+ * @precision: Function of  Precision specification
+ * @size: Function of Size specifier
  * Return: Number of chars printed
  */
 int print_non_printable(va_list types, char buffer[],
@@ -95,13 +95,13 @@ int print_non_printable(va_list types, char buffer[],
 
 /************************* PRINT REVERSE *************************/
 /**
- * print_reverse - Prints a reverse string.
- * @types: Lists of arguments
- * @buffer: Buffer array to handle print
- * @flags:  it calculates active flags
+ * print_reverse - A Function that Prints a reverse string.
+ * @types: Lists of arguments generated
+ * @buffer: Function of Buffer array to handle print
+ * @flags: A function that calculates active flags
  * @width: get width
- * @precision: Precision specification
- * @size: Size specifier
+ * @precision:A function of Precision specification
+ * @size: Function of Size specifier
  * Return: Numbers of chars printed
  */
 
@@ -138,12 +138,12 @@ int print_reverse(va_list types, char buffer[],
 }
 /************************* PRINT A STRING IN ROT13 *************************/
 /**
- * print_rot13string - Print a string in rot13.
- * @types: Lists of arguments
+ * print_rot13string -a fuction to Print a string in rot13.
+ * @types: Highlights the Lists of arguments
  * @buffer: Buffer array to handle print
  * @flags:  it calculates active flags
  * @width: get width
- * @precision: Precision specification
+ * @precision:a function Precision of specification
  * @size: Size specifier
  * Return: Numbers of chars printed
  */
