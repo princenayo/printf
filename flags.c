@@ -2,8 +2,8 @@
 
 /**
  * get_flags - functions that calculate active flags
- * by Emmanuel and  Kelly
- * @format: formated strings of argument
+ * by Emmanuel and  Kelly NAMANO
+ * @format: a function of formated strings of argument
  * @i: take a parameter.
  * Return: Flags:
  */
