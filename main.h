@@ -20,7 +20,7 @@
 
 /**
  * struct fmt - Struct op
- * by Emmanuel and Kelly
+ * by Emmanuel and Kelly NAMANO 
  *
  * @fmt: The format.
  * @fn: The function.
@@ -35,7 +35,7 @@ struct fmt
 /**
  * typedef struct fmt fmt_t - Struct op
  *
- * @fmt: The format.
+ * @fmt: Function of The format.
  * @fm_t: The function.
  */
 typedef struct fmt fmt_t;
@@ -71,11 +71,11 @@ int print_hexa_upper(va_list types, char buffer[],
 int print_hexa(va_list types, char map_to[],
 char buffer[], int flags, char flag_ch, int width, int precision, int size);
 
-/* Function to print non printable characters */
+/* Function that print non printable characters */
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Funcion to print memory address */
+/* Funcion that prints the  memory address */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
@@ -89,7 +89,7 @@ int get_size(const char *format, int *i);
 int print_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/*Function to print a string in rot 13*/
+/*Function that print a string in rot 13*/
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
