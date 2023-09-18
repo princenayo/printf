@@ -80,7 +80,7 @@ int print_octal(va_list types, char buffer[],
 
 /************** PRINT UNSIGNED NUMBER IN HEXADECIMAL **************/
 /**
- * print_hexadecimal - Function that Prints an unsigned number in hexadecimal notation
+ * print_hexadecimal -Print an unsigned number in hexadecimal notation
  * @types: Lists of arguments
  * @buffer: Buffer array to handle print
  * @flags: Functions that calculates active flags
@@ -98,7 +98,7 @@ int print_hexadecimal(va_list types, char buffer[],
 
 /************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
 /**
- * print_hexa_upper - Function that Prints the unsigned numbers in upper hexadecimal notation
+ * print_hexa_upper - Print an unsigned number in upper hexadecimal notation
  * @types: Lists of arguments to be print
  * @buffer: Buffer array that handles print
  * @flags: Function that calculates active flags
@@ -116,7 +116,7 @@ int print_hexa_upper(va_list types, char buffer[],
 
 /************** PRINT HEXX NUM IN LOWER OR UPPER **************/
 /**
- * print_hexa - Function That Prints a hexadecimal number in both lower and upper
+ * print_hexa - Prints a hexadecimal number in both lower and upper
  * @types: Function that List arguments
  * @map_to: Function of Array of values to map the number to
  * @buffer: Buffer array to handle print
