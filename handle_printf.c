@@ -8,7 +8,11 @@
  * @buffer: Buffer array that  handle print.
  * @flags: it calculates the flags that are active
  * @width: get width.
+<<<<<<< HEAD
  * @precision: Func of Precision specific and precision identifications
+=======
+ * @precision: Fun Precision specific and precision identifications
+>>>>>>> 71299016e2f77b0b993e15101ec44e79fd01af2f
  * @size: Size specifier
  * Return: 1 or 2;
  */

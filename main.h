@@ -21,7 +21,10 @@
 /**
  * struct fmt - Struct op
  * by Emmanuel and Kelly NAMANO
+<<<<<<< HEAD
  *
+=======
+>>>>>>> 71299016e2f77b0b993e15101ec44e79fd01af2f
  * @fmt: The format.
  * @fn: The function.
  */
