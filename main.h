@@ -20,8 +20,7 @@
 
 /**
  * struct fmt - Struct op
- * by Emmanuel and Kelly NAMANO 
- *
+ * by Emmanuel and Kelly NAMANO
  * @fmt: The format.
  * @fn: The function.
  */
