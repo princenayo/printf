@@ -6,5 +6,5 @@ Kelly NAMANO (papuskoo)
 
 The projet topics are:
 
-A replica of simple unix-like shell.
+Printf project
 Each of the partners contributed immensely to the successful completition of the project.
